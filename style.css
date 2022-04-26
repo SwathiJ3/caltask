@@ -1,0 +1,103 @@
+*{
+    font-weight:bold;
+    font-size:20px;
+}
+body{
+    background-image: linear-gradient(to left top, #b29b50, #bb9844, #c59439, #d0902e, #dc8a25, #e6802b, #ef7633, #f76a3d, #f95b52, #f65066, #ee497a, #e1478c);
+  
+}
+
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        border-bottom: 2px dotted rgb(111, 95, 227);
+        border-top: 2px dotted rgb(111, 95, 227);
+    }
+
+    p{
+        text-align:center;
+        font-size:18px;  
+    }
+    
+    .by{
+        color:rgb(177, 18, 103);
+        
+    }
+
+    .calculator
+    {
+        max-width: 400px;
+        padding-top:5px;
+        border-radius:10px;
+        margin:60px auto 0 auto;
+        box-shadow: 0px 30px 53px 0px;
+        background-color:gainsboro;
+        
+    }
+    
+    #display
+    {
+        display: inline-block;
+        text-align: right;
+        width: 96%;
+        color:black;
+        font-size: 25px;
+        border:5px solid lightblue; 
+        border-radius:25px;
+        background-color:lightcyan;
+    }
+    
+    .button
+    {
+        height:50px;
+        width:25%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:black;
+        background-color:rgb(192, 189, 189);
+        border-color:gray;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px 1px 3px; 
+        
+    }
+
+    #equalto
+    {
+        width:100%;
+    }
+    
+    #remove{
+        background: none repeat scroll 0 0 #2ecc71;
+        color: #fff;
+        border-color: #1d8a4b;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px 1px 3px;
+    }
+
+    #clear{
+       
+        background: none repeat scroll 0 0 #e74c3c;
+        color: #fff;
+        border-color: #c0392b;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px 1px 3px;
+    }
+
+    #divide, #multiply, #modulus, #dot, #substract, #addition, #obracket, #cbracket, #equalto{
+
+        background: none repeat scroll 0 0 rgb(255, 136, 0);
+        color:rgb(58, 56, 56);
+        border-color: rgb(204, 67, 17);
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px 1px 3px; 
+
+    }
+    
